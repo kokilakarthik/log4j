@@ -8,14 +8,14 @@ public class Logg4j1 {
 	
 	public static void main(String args[])
 	{
-		  BasicConfigurator.configure();  
-		System.out.println(" Hello User ");
-		logger.trace("We have just greeted the user");
+	 BasicConfigurator.configure();  
+	System.out.println(" Hello User ");
+	logger.trace("We have just greeted the user");
 	logger.debug("We have just greeted the user");
-		logger.info("We have just greeted the user");
-	  logger.warn("We have just greeted the user");
-	   logger.error("We have just greeted the user");
-	   logger.fatal("We have just greeted the user");
+	logger.info("We have just greeted the user");
+	logger.warn("We have just greeted the user");
+	logger.error("We have just greeted the user");
+	logger.fatal("We have just greeted the user");
 	}
 
 }
