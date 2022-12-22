@@ -1,0 +1,21 @@
+
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.LogManager;  
+import org.apache.log4j.Logger;  
+public class Logg4j1 {
+	
+	private static final Logger logger = LogManager.getLogger(Logg4j1.class);
+	
+	public static void main(String args[])
+	{
+		  BasicConfigurator.configure();  
+		System.out.println(" Hello User ");
+		logger.trace("We have just greeted the user");
+	logger.debug("We have just greeted the user");
+		logger.info("We have just greeted the user");
+	  logger.warn("We have just greeted the user");
+	   logger.error("We have just greeted the user");
+	   logger.fatal("We have just greeted the user");
+	}
+
+}
